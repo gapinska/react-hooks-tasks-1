@@ -4,6 +4,7 @@ import Toolbar from "./Toolbar"
 import Example from "./Example"
 import Example1 from "./Example1"
 import Example2 from "./Example2"
+import Example3 from "./Example3"
 
 function App() {
   return (
@@ -13,7 +14,8 @@ function App() {
       <Toolbar />
     </ThemeProvider> */}
       {/* <Example1 /> */}
-      <Example2 />
+      {/* <Example2 /> */}
+      <Example3 />
     </>
   )
 }
