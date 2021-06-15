@@ -3,6 +3,7 @@ import { ThemeProvider } from "./useContextHook"
 import Toolbar from "./Toolbar"
 import Example from "./Example"
 import Example1 from "./Example1"
+import Example2 from "./Example2"
 
 function App() {
   return (
@@ -11,7 +12,8 @@ function App() {
       {/* <ThemeProvider>
       <Toolbar />
     </ThemeProvider> */}
-      <Example1 />
+      {/* <Example1 /> */}
+      <Example2 />
     </>
   )
 }
